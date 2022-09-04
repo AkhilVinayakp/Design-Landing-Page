@@ -107,3 +107,55 @@ img[alt="vector-dot"] {
     bottom: 10em;
     right: 53em
 }
+
+@media screen and (max-width: 428px) {
+    html {
+        overflow: auto;
+    }
+    body {
+        background-position: top;
+        background-size: 170%;
+    }
+    nav {
+        padding: 1em;
+        justify-content: space-between;
+    }
+    .nav-items {
+        display: none;
+    }
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-section {
+        width: 90%;
+        margin: 12px;
+        margin-top: 3em;
+    }
+    .left-section h4 {
+        width: 90%;
+    }
+    .learn-more-btn {
+        padding: 0.4em 1em;
+        font-size: 1.5em;
+    }
+    .imgs-div {
+        width: 90%;
+    }
+    img[alt="intro-img"]{
+        padding: 12px;
+        width: 90%;
+    }
+    img[alt="vector-img"]{
+        position: absolute;
+        bottom: 2em;
+        left: 1em
+    }
+    img[alt="vector-dot"] {
+        position: absolute;
+        bottom: 7em;
+        left: 5em;
+    }
+}
