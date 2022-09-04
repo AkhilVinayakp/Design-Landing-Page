@@ -136,6 +136,8 @@ img[alt="vector-dot"] {
     }
     .left-section h4 {
         width: 90%;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .learn-more-btn {
         padding: 0.4em 1em;
